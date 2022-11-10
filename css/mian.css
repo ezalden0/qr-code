@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(215,225,250);
+}
+.card{
+    text-align: center;
+    margin: 75px 0 0 550px;
+}
+.card-img-top {
+    width: auto;
+    margin: 10px 10px;
+    border-radius: 25px;
+       
+}
+
+@media(max-width:750px){
+    
+    .card{
+        text-align: center;
+        margin: 20px 0 0 50px;
+    }
+    .card-img-top {
+        width: auto;
+        margin: 3px 3px;
+        border-radius: 10px;
+           
+    }
+}
